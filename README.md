@@ -95,7 +95,7 @@ Please refer to our CONTRIBUTING.md for more details and guidelines.
 
 License:
 
-This project is licensed under the GPL License. See the LICENSE file for more information.
+This project is licensed under the GNU V2.1 License. See the LICENSE file for more information.
 
 Contact:
 
