@@ -1,0 +1,133 @@
+Real-Time Messaging Tech Stack Options:
+---------------------------------------
+Option 1:
+----------
+Frontend: Flutter(framework from Dart)
+	- Open-source UI Toolkit, supports a single codebase using Dart for mobile applications
+
+Backend/Database: Firebase Functions(serverless)
+	- Handles backend logic(We don't have to manage servers, essentially meaning that it is handled by the third party Firebase)
+	- Firebase database is a real time NoSQL cloud database(allowing us to sync data between accounts, messages, and notifications)
+
+Real-Time Communication: WebRTC API
+	- Enables real-time video/audio/data communication(You can integrate WebRTC with Flutter through plugins)
+
+Authentication: Firebase Authentication
+	- This provides user authentication across platforms, supporting email/password, Google, Facebook, and maybe more?
+
+Encryption: Firebase Security Rules & WebRTC
+	- Manages data encryption and secure communication/privacy/security
+
+Pricing:
+Flutter - Free/Open-source
+Firebase - Free tier available with limitations (up to 1GB of data, 50K reads, 20K writes, 10K deletes per day). Paid plans start at $25/month for the Blaze plan (pay-as-you-go).
+WebRTC - Free and open source
+
+Dev Difficulty:
+	Pros:
+	- Single codebase for iOS and Android
+	- Highly customizable UI/UX
+	- Rapid development with hot reload
+	- Beginner friendly
+
+	Cons:
+	- Dart is a lesser known language and therefore doesn't have extensive forums on issues as Javascript would for example(Dart has a learning curve)
+	- In order to increase userbase we would have pay more for better accommodating services, therefore it may be expensive with a big userbase
+
+Conclusion:
+	- Beginner friendly
+	- Supports a small to medium user base for free, regardless service will be amazing
+	- Highly customizable
+
+
+Option 2:
+----------
+
+Frontend: React Native with Expo framework
+	- This framework is popular and leverages Javascript or/and? Typescript to make UI development more accessible to beginners
+
+Backend: AWS Amplify
+	- A set of tools and services that enables full-stack development on AWS, that has built-in support for real-time features
+
+Database: AWS DynamoDB
+	- A managed NoSQL database that integrates seamlessly with AWS Amplify for storing user data, messages, and app data
+
+Real-Time Communication: Amazon Chime SDK
+	- Provides APIs for integrating audio, video, messaging into your app using AWS infrastructure
+
+Authentication: AWS Cognito
+	- Scalable user authentication service integrated with AWS infrastructure
+
+Encryption: AWS KMS(Key Management Service)
+	- Manages encryption keys for securing data and communication
+
+Pricing:
+React Native using Expo framework: Free and open-source
+Expo: Free with limitations on features, paid services start at $29 a month
+AWS Amplify: Free tier includes 5GB storage and 1 million function invocations per month. Beyond that, pay-as-you-go pricing applies
+Amazon Chime SDK: Pay-as-you-go, starting at $0.0017 per attendee per minute for audio, and $0.0019 for video.
+AWS Cognito: Free tier includes 50,000 monthly active users. Paid plans are pay-as-you-go.
+
+Dev Difficulty:
+	Pros:
+	- Single codebase for iOS and Android mobile
+	- Strong community support because of Amazon
+	- Highly scalable
+
+	Cons:
+	- Limitations due to AWS Vendor lock-in
+	- Expo may limit advanced customization options
+	- javascript is easy to pick up but can get complicated quick
+
+Conclusion:
+	- Beginner friendly(Expo framework simplifies React Native Development)
+	- Extremely reliable and super high scalability as AWS services are from Amazon
+	- Moderate to high customization, react native itself has high customization but the AWS services may cause vendor lock-in
+
+
+Option 3:
+---------
+
+Frontend: .NET MAUI(framework that uses C# or XAML programming language)
+	- Microsoft framework that enables cross-platform mobile application development, it has tools and libraries that are effective for mobile app dev
+
+Backend: Microsoft Azure
+	- Azure is serverless cloud service stemming from Microsoft Azure that allows developers to create event-driven applications
+
+Database: Azure Cosmos DB(Serverless)
+	- Multi-model database NoSQL DB, this provides real-time data management for user accounts, messaging, and notifications
+
+Real-Time Communication: Azure Communication Services
+	- Provides APIs for integrating real-time communication features for voice, video and chat
+
+Authentication: Azure Active Directory B2C
+	- A cloud identity service that provides authentication for mobile apps
+
+Encryption: Azure Key Vault
+	- Manages cryptographic keys and secrets for secure data and communication and privacy
+
+Pricing:
+.NET MAUI/Xamarin: Free/open-source
+
+Azure functions: Free tier available, including 1 million requests per month. Beyond that, pay-as-you-go pricing applies.
+
+Azure Cosmos DB: Free tier includes 400 RU/s provisioned throughput and 5GB storage. Paid plans are pay-as-you-go.
+
+Azure Communication Services: Pay-as-you-go, starting at $0.004 per minute for voice and video.
+
+Azure Active Directory B2C: Free tier includes 50,000 monthly active users. Paid plans are pay-as-you-go.
+
+Dev Difficulty:
+	Pros:
+	- single Codebase for iOS, Android and other platforms(Windows included)
+	- Strong integration with Microsoft's infrastructure
+	- Highly Scalable/customizable because of Microsoft's cloud computing
+
+	Cons:
+	- Learning curve to get in tune with Microsoft infrastructure
+	- Azure costs spikes as user base grows
+
+
+Nihal's Free Tier Pick: Flutter + Firebase
+
+Nihal's Paid Pick: React Native Stack W/ Expo
