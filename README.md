@@ -14,4 +14,4 @@ Table of Contents:
 
 Contact:
 
-For questions or feedback, please reach out to us at nihalamedkhan@gmail.com or open an issue on GitHub. Happy coding! 🎉
+For questions or feedback, please reach out to us at nihalamedkhan@gmail.com or open an issue on GitHub and we will review it as soon as possible. Happy coding! 🎉
